@@ -16,8 +16,6 @@ It exposes `xiter()`, which can wrap any `iterable` object to feature:
 
 I plan to further improve the library, specially the last item.
 
-This is [an example](http://example.com/ "Title") inline link.
-
 The [xiter-euler](https://github.com/slezica/xiter-euler "xiter-euler") repository contains solutions to some of the project euler
 problems using `xiter`. You can check them out if you want examples.
 
