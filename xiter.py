@@ -44,8 +44,8 @@ class xiter:
     def drop(self, amount):
         return xiter(islice(self, amount, None))
         
-    def slice(self, *args, **kwargs):
-        return xiter(islice(self, *args, **kwargs))
+    def slice(self, start = 0, stop = None, step = 1):
+        return xiter(islice(self, start, stop, step))
     
     def dropwhile(self, p = I):
         return xiter(dropwhile(p, self))
